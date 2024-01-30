@@ -1,0 +1,35 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    display: flex;
+    padding: 1em;
+}
+
+.logo {
+    max-width: 100em;
+    max
+}
+
+
+
+.navbar {
+    position: fixed;
+    background: rgb(231, 125, 125);
+    color: rgb(197, 130, 130);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transform: translateX(100%);
+    transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+}
+

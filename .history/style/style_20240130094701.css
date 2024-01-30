@@ -1,0 +1,36 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --textColor: rgb(82, 77, 77);
+    --backgroundColor: rgb(221, 92, 92,0.5);
+}
+
+/* header */
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: var(--backgroundColor);
+    position: fixed;
+    z-index: 100;
+}
+
+div.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 90px;
+}
+

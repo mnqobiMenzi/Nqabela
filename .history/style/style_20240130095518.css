@@ -57,7 +57,7 @@ nav.navbar a {
 
 .navbar-link:hover {
     text-decoration: none;
-    border: 1.2px solid var(--backgroundColor);
+    border: 1px solid var(--mainWhite);
     color: white;
     transition: all 0.5s ease-in-out;
 }

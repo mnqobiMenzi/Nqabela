@@ -45,19 +45,11 @@ nav.navbar li {
     line-height: 80px;
 }
 
-nav.navbar a {
-    color: var(--textColor);
+nav.navbaar a {
+    color: white;
     font-size: 18px;
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 7px 10px;
     border-radius: 3px;
-    text-decoration: none;
-}
-
-.navbar-link:hover {
-    text-decoration: none;
-    border: 1.2px solid var(--backgroundColor);
-    color: white;
-    transition: all 0.5s ease-in-out;
 }

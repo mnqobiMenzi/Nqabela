@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 79, 79);
+    font-size: 1rem;
+}

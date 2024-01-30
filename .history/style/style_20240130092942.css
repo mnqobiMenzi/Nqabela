@@ -1,0 +1,52 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    display: flex;
+    padding: 1em;
+}
+
+.logo {
+    max-width: 20em;
+    max-height: 15em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.navbar {
+    position: fixed;
+    background: rgb(221, 92, 92);
+    color
+    /* top: 0; */
+    /*bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;*/
+    transform: translateX(100%);
+    transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+}
+
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+

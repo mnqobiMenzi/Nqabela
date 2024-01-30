@@ -1,0 +1,23 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --textColor: rgb(82, 77, 77);
+    --backgroundColor: rgb(221, 92, 92);
+}
+
+/* header */
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: var(--backgroundColor);
+    position: fixed;
+    z-index: 100;
+}
+

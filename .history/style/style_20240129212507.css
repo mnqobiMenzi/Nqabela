@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(185, 57, 48);
+    font-size: 10rem;
+}
+
+a:hover{
+    color: rgb(43, 33, 33);
+}
+
+/* Navbar */
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+
