@@ -20,7 +20,6 @@ nav.navbar{
     position: fixed;
     z-index: 100;
     border: 1px solid var(--backgroundColor);
-    border-radius: 0.2em;
 }
 
 div.logo {

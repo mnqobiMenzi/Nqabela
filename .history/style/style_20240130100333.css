@@ -21,6 +21,7 @@ nav.navbar{
     z-index: 100;
     border: 1px solid var(--backgroundColor);
     border-radius: 0.2em;
+    margin-bottom: 100px;
 }
 
 div.logo {
