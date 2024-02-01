@@ -1,0 +1,135 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --textColor: rgb(82, 77, 77, 0.1);
+    --backgroundColor: rgb(221, 92, 92);
+    --hTagColor: rgb(82, 77, 77, 0.9);
+}
+
+section{
+    padding: 8em 2em 8em 2em;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: bold;
+    color: var(--hTagColor);
+}
+
+/* header */
+nav.navbar{
+    height: 120px;
+    width: 100%;
+    background: var(--textColor);
+    position: fixed;
+    z-index: 100;
+    border: 1px solid var(--textColor);
+    border-radius: 0.2em;
+    margin-left: 0.01em;
+}
+
+div.logo {
+    margin: 0 1em 1em 0.5em;
+}
+
+div.logo img {
+    max-width: 100%;
+    max-height: 90px;
+}
+
+nav.navbar ul {
+    float: left;
+    margin-right: 40px;
+
+}
+
+nav.navbar li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav.navbar a {
+    color: var(--backgroundColor);
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    text-decoration: none;
+    border: 1.2px solid var(--backgroundColor);
+    color: rgb(82, 77, 77);
+    transition: all 0.5s ease-in-out;
+}
+
+/* Slider */
+section div.slider{
+    background-image: url(../images/civil-electrical-FoE-Slider-475x330px@4x-20.jpg);
+    height: 30em;
+    width: 100%;
+    text-align: center;
+    padding-top: 15em;
+    margin-bottom: 2em;
+}
+/* Content */
+div.content {
+    background-color: var(--textColor);
+    padding: 2em 2em 2em 2em;
+}
+
+div.content h2{
+    color: var(--hTagColor);
+    text-align: center;
+    font-size: 2.2em;
+    padding-bottom: 1em;
+}
+
+div.content p{
+    font-style: oblique;
+    font-size: large;
+}
+
+div.content ul {
+    padding-left: 0;
+}
+
+div.content ul li {
+    list-style-type: circle;
+}
+
+div.services h2{
+    color: var(--hTagColor);
+    text-align: center;
+    font-size: 2.2em;
+    
+}
+
+div.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+
+div.grid-container div.grid-item{
+    text-align: center;
+    height: 20em;
+    padding-top: 10em;
+    border: 1px solid var(--textColor);
+    background-color: var(--textColor);
+    font-weight: bold;
+}
