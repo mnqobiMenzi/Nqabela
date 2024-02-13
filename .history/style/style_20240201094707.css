@@ -80,7 +80,7 @@ nav.navbar a {
     text-decoration: none;
     border: 1.2px solid var(--backgroundColor);
     color: rgb(82, 77, 77);
-    transition: all 0.9s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 /* Slider */
@@ -197,19 +197,6 @@ div.social-media div.button:nth-child(4):hover div.icon{
     color: #ff0000;
 }
 
-div.social-media div.button:nth-child(5):hover div.icon{
-    color: #1DA1F2;
+div.social-media div.button:nth-child(4):hover div.icon{
+    color: #ff0000;
 }
-
-
-div.contact{
-    text-align: center;
-    padding-top: 2em;
-}
-
-div.grid-container-contact{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 50px;
-}
-

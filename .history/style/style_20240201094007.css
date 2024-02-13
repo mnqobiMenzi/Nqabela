@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
 
 footer{
     width: 100%;
-    height: auto;
+    height: 13em;
     background-color: var(--textColor);
 }
 
@@ -80,7 +80,7 @@ nav.navbar a {
     text-decoration: none;
     border: 1.2px solid var(--backgroundColor);
     color: rgb(82, 77, 77);
-    transition: all 0.9s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 /* Slider */
@@ -141,31 +141,29 @@ div.grid-container div.grid-item{
 }
 
 /* footer */
-div.affiliates h3{
+div.afiliates h3{
     color: var(--hTagColor);
     text-align: center;
     font-size: 2.2em;
     font-weight: bolder;
 }
 
-div.affiliates-image{
+div.afiliates-image{
     text-align: center;
 }
 
-div.affiliates div.affiliates-image img{
+div.afiliates div.afiliates-image img{
     width: 14.5em;
     height: auto;
-    margin-bottom: 3em;
 }
 
-div.social-media{
-    text-align: center;
-}
+
 
 div.button{
     display: inline-block;
     width: 60px;
     height: 60px;
+    background-color: white;
     border-radius: 50px;
     line-height: 60px;
     text-align: center;
@@ -196,20 +194,3 @@ div.social-media div.button:nth-child(3):hover div.icon{
 div.social-media div.button:nth-child(4):hover div.icon{
     color: #ff0000;
 }
-
-div.social-media div.button:nth-child(5):hover div.icon{
-    color: #1DA1F2;
-}
-
-
-div.contact{
-    text-align: center;
-    padding-top: 2em;
-}
-
-div.grid-container-contact{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 50px;
-}
-

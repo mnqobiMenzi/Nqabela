@@ -202,10 +202,7 @@ div.social-media div.button:nth-child(5):hover div.icon{
 }
 
 
-div.contact{
-    text-align: center;
-    padding-top: 2em;
-}
+
 
 div.grid-container-contact{
     display: grid;

@@ -79,7 +79,6 @@ nav.navbar a {
 .navbar-link:hover {
     text-decoration: none;
     border: 1.2px solid var(--backgroundColor);
-    color: rgb(82, 77, 77);
     transition: all 0.9s ease-in-out;
 }
 
@@ -200,16 +199,3 @@ div.social-media div.button:nth-child(4):hover div.icon{
 div.social-media div.button:nth-child(5):hover div.icon{
     color: #1DA1F2;
 }
-
-
-div.contact{
-    text-align: center;
-    padding-top: 2em;
-}
-
-div.grid-container-contact{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 50px;
-}
-
